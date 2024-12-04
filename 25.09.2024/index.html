@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="one">1</div>
+			<div class="row1">
+				<div class="two">2</div>
+				<div class="three">
+					<h1>Dodawanie dwóch liczb</h1>
+
+					<label>a = <input type="number" id="a" /></label>
+					<br />
+					<label>b = <input type="number" id="b" /></label>
+					<br />
+
+					<!-- <input type="number" id="ile" step="1" /> -->
+					<input type="button" value="Oblicz" onclick="generujPrzedzial()" />
+
+					<div id="wynik"></div>
+				</div>
+				<div class="four">4</div>
+			</div>
+			<div class="row2">
+				<div class="five">5</div>
+				<div class="six">6</div>
+			</div>
+			<div class="seven">7</div>
+		</div>
+
+		<script src="obliczenia.js"></script>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	background-color: rgb(35, 32, 32);
+	color: white;
+}
+
+.one {
+	background-color: pink;
+}
+
+.two {
+	background-color: brown;
+	width: 33%;
+	float: left;
+}
+.three {
+	background-color: blueviolet;
+	width: 33%;
+	float: left;
+}
+.four {
+	background-color: aquamarine;
+	width: 34%;
+	float: left;
+}
+.five {
+	background-color: azure;
+	clear: both;
+	float: left;
+	width: 50%;
+}
+.six {
+	background-color: chocolate;
+}
+.seven {
+	background-color: crimson;
+	clear: both;
+}
